@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-
+//Email valid password invalid User should be login failed
 public class loginFailedTest extends BaseDriver {
     @Test
     public void Test1() {
@@ -32,9 +32,9 @@ public class loginFailedTest extends BaseDriver {
         waitAndClick(login);
 
         WebElement signInControl = driver.findElement(By.cssSelector("[class='alertX t2']>p"));
-        wait.until(ExpectedConditions.textToBePresentInElement(signInControl, "tekrar deneyin"));
+        wait.until(ExpectedConditions.textToBePresentInElement(signInControl, "Şifre doğru değil"));
         System.out.println(signInControl.getText());
-        Assert.assertTrue("Test failed", signInControl.getText().toLowerCase().contains("tekrar deneyin"));
+        Assert.assertTrue("Test failed", signInControl.getText().toLowerCase().contains("Şifre doğru değil"));
 
 
     }
