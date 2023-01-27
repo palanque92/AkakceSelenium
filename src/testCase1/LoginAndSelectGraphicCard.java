@@ -46,4 +46,6 @@ public class LoginAndSelectGraphicCard extends BaseDriver{
 
         driverBekleKapat();
     }
+
+
 }

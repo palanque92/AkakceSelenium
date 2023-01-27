@@ -4,11 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
 
 import java.time.Duration;
 import java.util.logging.Level;
-import java.util.logging.Logger;
-
 public class BaseDriver {
      public static WebDriver driver;
 
@@ -18,11 +17,9 @@ public class BaseDriver {
      {
          KalanOncekileriKapat();
 
-
-
-         // ilk adimda calisan kod kismi
-         Logger logger = Logger.getLogger(""); // butun loglara ulastim
-         logger.setLevel(Level.SEVERE); // sadece errorlari goster
+//         // ilk adimda canalise kod kismi
+//         Logger logger = Logger.getLogger(""); // butun loglara ulastim
+//         logger.setLevel(Level.SEVERE); // sadece errorlari goster
 
          System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");  // ChromeServici sessiz modda çalıştır
          System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
@@ -39,7 +36,7 @@ public class BaseDriver {
          driver.manage().timeouts().implicitlyWait(dr); // Butun webelementlerin elemnt bazinda , elemente ozel islem yapilmadan once
          // hazir hale gelmesi verilem muhlet yani sure.
 
-         wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+         wait=new WebDriverWait(driver,Duration.ofSeconds(30));
 
 
 
