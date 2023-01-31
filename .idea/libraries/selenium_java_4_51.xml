@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="selenium-java-4.51">
+  <library name="selenium-java-4.5">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../selenium/selenium-java-4.5.0 (1)" />
+      <root url="file://$PROJECT_DIR$/../../../../Selenium dosya/selenium-java-4.5.0" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../../../../selenium/selenium-java-4.5.0 (1)" />
+      <root url="file://$PROJECT_DIR$/../../../../Selenium dosya/selenium-java-4.5.0" />
     </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/../../../../selenium/selenium-java-4.5.0 (1)" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/../../../../selenium/selenium-java-4.5.0 (1)" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Selenium dosya/selenium-java-4.5.0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Selenium dosya/selenium-java-4.5.0" recursive="false" type="SOURCES" />
   </library>
 </component>
