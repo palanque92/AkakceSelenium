@@ -1,9 +1,21 @@
 package Utility;
 
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class MyFunc {
+
 
     public static double yuvarla(double gelenSayi){
         // 18.84955592153876
@@ -59,4 +71,7 @@ public class MyFunc {
 
         }
     }
+
+
+
 }
